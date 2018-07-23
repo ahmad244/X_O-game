@@ -103,39 +103,6 @@ function gameCheak(){
 			if(win3)
 				finaly();
 		}
-		
-		/*
-		//cheack first row
-		temp = $("#box0").text();
-		for (var x = 1 ; x < 3; x+= 1){
-			if(temp != $("#box"+x).text()){
-				win2 = false;
-				break;
-			}else {
-				win2 = true;
-			}
-		}
-		//cheak second row
-		temp = $("#box3").text();
-		for (var x = 4 ; x < 6; x+= 1){
-			if(temp != $("#box"+x).text()){
-				win3 = false;
-				break;
-			}else {
-				win3 = true;
-			}
-		}
-		//cheak third row
-		temp = $("#box6").text();
-		for (var x = 6 ; x < 9; x+= 1){
-			if(temp != $("#box"+x).text()){
-				win4 = false;
-				break;
-			}else {
-				win4 = true;
-			}
-		}
-		*/
 		finaly();
 		
 }

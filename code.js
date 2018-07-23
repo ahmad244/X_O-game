@@ -86,7 +86,7 @@ function gameCheak(){
 				}
 			}
 			if(win2)
-				finaly();
+				break;
 		}
 		//cheak col
 		for (var y = 0 ; y < 3  ; y+= 1){
@@ -101,7 +101,7 @@ function gameCheak(){
 				}
 			}
 			if(win3)
-				finaly();
+				break;
 		}
 		finaly();
 		

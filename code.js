@@ -1,6 +1,6 @@
 
 
-//var xOScore = new Array(2); 
+
 var repeat = new Array() , index = -1;
 var count = "X";
 var winWhole = false,win1 ,win2 , win3 , win4 , win5;
@@ -53,7 +53,7 @@ function clearField(){
 function gameCheak(){
 	win1 = win2 = win3 = win4 = win5 = true;
 		//cheaking for game score
-		//cheak dignol
+		//cheak diagonal
 		var temp = $("#box0").text();
 		for (var x = 4 ; x < 9 ; x+= 4){
 			if(temp != $("#box"+x).text()){
@@ -63,7 +63,7 @@ function gameCheak(){
 				win1 = true;
 			}
 		}
-		//cheak anti dignol
+		//cheak anti diagonal
 		temp = $("#box6").text();
 		for (var x = 4 ; x >= 2 ; x-= 2){
 			if(temp != $("#box"+x).text()){
